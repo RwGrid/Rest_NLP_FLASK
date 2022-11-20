@@ -9,9 +9,9 @@ This Repository is the backend of a mobile app that consumes this flask api to s
 
 <h2>Usage</h2>
 
-> docker
-
-
 > sudo docker build . -t nlp_rest
+
+
+ 
 > docker-compose up -d inside the shell
 
