@@ -1,0 +1,16 @@
+version: '3.5'
+
+services:
+  rest_api:
+    container_name: rest_api
+    image: nlp_rest
+    ports:
+      - "5000:5000"
+    networks:
+      - rest_api
+    restart: unless-stopped
+
+
+networks:
+  rest_api:
+    driver: bridge
